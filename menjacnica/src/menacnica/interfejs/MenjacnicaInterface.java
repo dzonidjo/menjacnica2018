@@ -1,6 +1,8 @@
-package menjacnica;
+package menacnica.interfejs;
 
 import java.util.LinkedList;
+
+import menjacnica.Valuta;
 
 
 public interface MenjacnicaInterface {
@@ -12,5 +14,5 @@ public interface MenjacnicaInterface {
 	
 	public void ucitajIzFajla(String putanja);
 	public void sacuvajUFajl(String putanja);
-
+	
 }
